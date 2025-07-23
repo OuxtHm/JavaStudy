@@ -131,9 +131,9 @@ public class 변수선언_36p {
 		 */
 		
 		// boolean -> true/false
-		boolean b = true;
+		/*boolean b = true;
 		System.out.println(b);
-
+		
 		// 변경 b-> false
 		b = false;
 		System.out.println(b);
@@ -146,8 +146,8 @@ public class 변수선언_36p {
 		// 강제 형변환 -> 소수점 지우기 : 10
 		System.out.println((int)'B');
 		//up casting / down casting
+		*/
 		
-	
 	}
 
 }
