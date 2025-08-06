@@ -60,10 +60,6 @@ public class 제어문_1 {
 		{
 			System.out.print(s.charAt(i)+ " ");
 		}
-		
-		String html = """
-				
-				"""
 	}
 
 }

@@ -52,7 +52,7 @@ public class 배열정리 {
 		int[] arr3 = arr.clone();
 		arr3[0] = 1000;
 		System.out.println(arr[0]);
-		*/
+		
 		
 		int[] arr = {1,2,3,4,5};
 		int[] arr2 = new int[10];
@@ -60,15 +60,14 @@ public class 배열정리 {
 		{
 			arr2[i] = arr[i];
 			
-		}
-		for(int a : arr2)
-		{
-			System.out.println(a);
-		}
+		}*/
+		
+		
+		int[] arr2 = new int[10];
 		
 		
 		
-		
+
 	}
 
 }
