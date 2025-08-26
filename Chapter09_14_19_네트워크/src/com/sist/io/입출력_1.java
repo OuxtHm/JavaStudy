@@ -52,7 +52,12 @@ package com.sist.io;
 		- 네트워크 입출력
 			OutputStream : 송신
 			BufferedReader : 수신
-
+		
+		파일
+		스트림
+		-----------송/수신
+		파일 복사(업로드, 다운로드)
+		
 */
 import java.io.*; // 반드시 예외처리
 
