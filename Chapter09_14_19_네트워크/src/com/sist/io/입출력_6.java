@@ -1,0 +1,38 @@
+package com.sist.io;
+import java.io.*;
+import java.util.*;
+
+// FileReader / FileWriter
+public class 입출력_6 {
+
+	public static void main(String[] args) {
+		// 파일 저장
+		Scanner scan = new Scanner(System.in);
+		System.out.println("이름: ");
+		String name = scan.next();
+		
+		System.out.println("성별: ");
+		String sex = scan.next();
+		
+		System.out.println("나이: ");
+		int age = scan.nextInt();
+
+		String msg = name + "|" + sex + "|" + age + "\r\n";
+		
+		try {
+			File file = new File("c:\\upload\\sawon.txt");
+			if(!file.exists())
+			{
+				file.createNewFile();
+			}
+			
+			// 데이터를 출력
+			FileWriter fw = new FileWriter(file, true);
+			// ---------> w(create) : 덮어쓴다, a -> 추가
+			// ---------> log 파일, 임시 저장 데이터..
+			fw.write(msg);
+			fw.close();
+		} catch (Exception e) {}
+	}
+
+}
