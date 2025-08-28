@@ -65,7 +65,7 @@ public class 제네릭_1 {
 
 	public static void main(String[] args) {
 		ArrayList<?> list = new ArrayList();
-		list.add
+		list.
 	}
 
 }
