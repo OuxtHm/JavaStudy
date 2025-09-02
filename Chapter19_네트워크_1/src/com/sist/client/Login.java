@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 
 public class Login extends JPanel{
+	
 	JLabel la1, la2;
 	JTextField tf;
 	JPasswordField pf;
@@ -38,5 +39,7 @@ public class Login extends JPanel{
 		p.setBounds(250, 290, 265, 35);
 		add(p);
 	}
-
+	public static void main(String[] args) {
+		new Login();
+	}
 }
